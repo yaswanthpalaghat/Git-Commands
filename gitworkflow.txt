@@ -1,0 +1,75 @@
+git workflow:
+
+mkdir folder
+cd folder
+git init
+type nul>ex.py
+git add ex.py(or git add .)
+git commit -m "first commit"
+git status
+type nul>welcome.py
+git add welcome.py
+git status
+git config --global user.name "yash"
+git config --global user.name "yash@gmail.com"
+git config user.name "yash"
+git config user.name "yash@gmail.com"
+git branch
+git branch feature
+git branch
+git checkout feature
+
+*change ex.py file
+
+git add .
+git commit -m "feature commit"
+git checkout master
+git merge feature
+git branch -d feature
+git checkout -b new(creates and checkout a new branch)
+
+*change welcome.py file
+
+git add .
+git commit -m "new"
+
+git remote add origin https://github.com/yaswanthpalaghat/Git-Commands.git
+
+cd ..
+mkdir git-repo2
+cd git-repo2
+git clone https://github.com/yaswanthpalaghat/Git-Commands.git
+dir
+cd file_name
+
+*make changes in github file(in github)
+
+git pull origin master
+
+type nul>git1.py
+git add .
+git commit -m "Remote"
+git push origin master
+
+type nul>stash.py
+git
+git add .
+git status
+git stash -u
+git status
+git stash list
+git stash show
+git stash apply
+
+cd ..
+cd ..
+mkdir git-log
+cd git-log
+type nul>demo.py
+git init
+git add .
+git commit -m "message"
+git log --author="yash"
+
+
+
