@@ -1,2 +1,43 @@
-welcome 
-I am yash
+GIT COMMANDS:
+
+git init : turns a directory into an empty git repository
+
+git add: adds files to the staging area for git
+
+git add . : adds all files
+
+git commit : records the changes made to the files in a local repository
+
+git status: returns the current state of the repository
+
+git stash: 
+
+git config: assign settings
+
+Branching:
+
+git branch: checkout your current branch
+git merge: integrate branches together
+git checkout: used for switching branches
+
+Remote repository:
+
+git remote add origin github_link : connects to local repo with remote repository
+
+git clone: creates a local working copy of an existing remote repository
+
+git pull: make changes on local repo from remote repo
+
+git push: make changes on remoto repo from local repo
+
+git stash: to save changes made when they are not in a state to commit them to a repository
+
+git log: this helps give context and history for a repository
+
+git rebase: takes a set of commits,copies them and stores them outside your repository
+
+git revert: it helps you to roll back to the previous version of the file
+
+
+
+
